@@ -1,0 +1,1741 @@
+.main {
+    width: 1440px;
+    height: 10811px;
+    margin: auto;
+    overflow: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 370px;
+    background: rgb(41, 46, 54);
+}
+
+.header_box_1 {
+    width: 1360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.phone_box {
+    width: 295px;
+    height: 73px;
+    box-sizing: border-box;
+    border: 2px solid rgb(225, 177, 104);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.phone_box:hover {
+    background-color: white;
+}
+
+.phone_box:hover .phone {
+    color: rgb(225, 177, 104);
+}
+
+.phone {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.reservation_box {
+    width: 295px;
+    height: 73px;
+    box-sizing: border-box;
+    border: 2px solid rgb(225, 177, 104);
+    background: rgb(225, 177, 104);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.reservation_box:hover {
+    background-color: rgb(41, 46, 54);
+}
+
+.reservation_box:hover .reservation {
+    color: rgb(225, 177, 104);
+}
+
+.reservation {
+    color: rgb(41, 46, 54);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.44px;
+    text-align: center;
+}
+
+.line {
+    width: 1440px;
+    height: 1px;
+    background: rgb(92, 97, 104);
+    margin-top: 49px;
+}
+
+.nav {
+    width: 1360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 795.84px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_home_button, .menu_button {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.menu_home_button {
+    color: rgb(225, 177, 104);
+}
+
+.social_links_box {
+    width: 179px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main_box_1 {
+    height: 810px;
+    background: rgb(41, 46, 54);
+    position: relative;
+}
+
+.welcome {
+    width: 655px;
+    padding: 215.83px 0 0 40px;
+}
+
+.welcome_title {
+    color: rgb(255, 255, 255);
+    font-family: Cormorant Infant;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 110px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.welcome_text {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-top: 26px;
+}
+
+.welcome_button {
+    width: 230px;
+    height: 73px;
+    box-sizing: border-box;
+    border: 2px solid rgb(225, 177, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    transition: all 0.3s;
+}
+
+.welcome_button:hover {
+    background-color: rgb(225, 177, 104);
+}
+
+.welcome_button:hover .welcome_button_text {
+    color: rgb(41, 46, 54);
+}
+
+.welcome_button_text {
+    color: rgb(225, 177, 104);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.line_1, .line_3 {
+    width: 30px;
+    height: 769.66px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.line_2 {
+    width: 655px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.line_1 {
+    position: absolute;
+    top: 40px;
+    left: 715px;
+    right: 695px;
+    bottom: 0.34px;
+}
+
+.line_2 {
+    position: absolute;
+    top: 10px;
+    left: 745px;
+    right: 40px;
+    bottom: 770px;
+}
+
+.line_3 {
+    position: absolute;
+    top: 40px;
+    left: 1400px;
+    right: 10px;
+    bottom: 0.34px;
+}
+
+.rest_image {
+    width: 595px;
+    height: 740px;
+    position: absolute;
+    top: 70px;
+    left: 775px;
+    right: 70px;
+}
+
+.gear_image {
+    width: 403px;
+    height: 403px;
+    position: absolute;
+    top: 20px;
+    left: 1030px;
+    right: 7px;
+    bottom: 387px;
+}
+
+.box_1 {
+    height: 243px;
+    background: rgb(255, 248, 245);
+    display: flex;
+    align-items: center;
+}
+
+.box_2 {
+    width: 1360px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_box {
+    display: flex;
+}
+
+.locate_box, .hours_box, .mail_box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 4.5px;
+}
+
+.info_box_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.info_box_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.box_3 {
+    height: 728px;
+    background: rgb(255, 248, 245);
+    display: flex;
+}
+
+.box_3_image {
+    width: 743px;
+    height: 519px;
+    padding: 84px 0 125px 40px;
+    margin-right: 45.25px;
+}
+
+.story_box {
+    padding: 59.66px 40.02px 100.34px 0;
+}
+
+.story_box_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.story_box_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.box_4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.66px;
+}
+
+.year_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.year_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.signature_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.signature_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.signature_image {
+    width: 198.78px;
+    height: 107.04px;
+    margin-top: 20px;
+}
+
+.menu_dishes_box {
+    height: 1984px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_box {
+    width: 1360px;
+    height: 1724px;
+    display: flex;
+}
+
+.dishes_image {
+    width: 398px;
+    height: 548px;
+}
+
+.left_box {
+    width: 491.25px;
+}
+
+.dishes_logo {
+    color: rgb(41, 46, 54);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 11.34px;
+}
+
+.dishes_logo::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 1px;
+    background: rgb(225, 177, 104);
+}
+
+.dishes_logo::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 1px;
+    background: rgb(225, 177, 104);
+}
+
+.special_dishes_box_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+}
+
+.special_dishes_box_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+.dishes_button {
+    width: 255px;
+    height: 73px;
+    box-sizing: border-box;
+    border: 2px solid rgb(225, 177, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    transition: all 0.3s;
+}
+
+.dishes_button:hover {
+    background-color: rgb(225, 177, 104);
+}
+
+.dishes_button:hover .dishes_button_text {
+    color: white;
+}
+
+.dishes_button_text {
+    color: rgb(225, 177, 104);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.right_box {
+    width: 818.75px;
+    height: 1684px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.starters_box {
+    width: 818.75px;
+    height: 635px;
+}
+
+.starters_box_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.starters_dish {
+    display: flex;
+    align-items: center;
+    margin-top: 39.66px;
+}
+
+.dish_image {
+    width: 84px;
+    height: 84px;
+}
+
+.dish_name {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    text-align: left;
+
+}
+
+.dish_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.dish_box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.dish_line {
+    width: 259.73px;
+    height: 2px;
+    background: rgb(170, 170, 170);
+    margin-top: 67px;
+    margin-left: 10px;
+}
+
+.price {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.dish_line, .dish_line_2, .dish_line_3, .dish_line_4, .dish_line_5, .dish_line_6, .dish_line_7, .dish_line_8, .dish_line_9, .dish_line_10 {
+    margin-top: 67px;
+    background: rgb(170, 170, 170);
+    height: 2px;
+}
+
+.dish_line_2 {
+    width: 272.14px;
+}
+
+.dish_line_3 {
+    width: 277.33px;
+}
+
+.dish_line_4 {
+    width: 317.53px;
+}
+
+.dish_line_5 {
+    width: 262.94px;
+}
+
+.dish_line_6 {
+    width: 320.73px;
+}
+
+.dish_line_7 {
+    width: 273.53px;
+}
+
+.dish_line_8 {
+    width: 237.53px;
+}
+
+.dish_line_9 {
+    width: 290.14px;
+}
+
+.dish_line_10 {
+    width: 330.53px;
+}
+
+.main_dish_box {
+    width: 818.75px;
+    height: 636px;
+    margin-top: 15px;
+}
+
+.main_dish_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.main_dish {
+    display: flex;
+    margin-top: 39.66px;
+}
+
+.dessert_box {
+    width: 818.75px;
+    height: 368px;
+    margin-top: 15px;
+}
+
+.dessert_box_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.dessert {
+    display: flex;
+    margin-top: 39.66px;
+}
+
+.testimonial_box {
+    height: 906px;
+    background: rgb(41, 46, 54);
+}
+
+.logo_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo_line {
+    width: 141px;
+    height: 1px;
+    background: rgb(225, 177, 104); 
+}
+
+.logo_text {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.box_5 {
+    display: flex;
+    flex-direction: column;
+    padding: 139.66px 40px 0 40px;
+}
+
+.box_5_title {
+    color: rgb(255, 255, 255);
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 11.34px;
+}
+
+.box_5_text {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.comments_box {
+    width: 1360px;
+    height: 412px;
+    margin: 20px 0 0 40px;
+    display: flex;
+}
+
+.comment_1, .comment_2, .comment_3 {
+    width: 544px;
+    background: rgb(52, 57, 66);
+}
+
+.comment_1 {
+    display: flex;
+    flex-direction: column;
+    height: 285px;
+}
+
+.profile {
+    width: 113px;
+    height: 113px;
+}
+
+.profile_box {
+    display: flex;
+    margin: 0 40px 33px 40px;
+}
+
+.profile_name {
+    color: rgb(255, 255, 255);
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.profile_location {
+    color: rgb(225, 177, 104);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.comment_line {
+    width: 464px;
+    height: 1px;
+    background: rgb(121, 126, 137);
+    margin: 0 40px 10px 40px;
+}
+
+.comment_text {
+    color: rgb(255, 255, 255);
+    font-family: Cormorant Infant;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37.5px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.profile_info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 30px;
+}
+
+.comment_2, .comment_3 {
+    margin-left: 30px;
+    height: 322px;
+}
+
+.list_box {
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.white_circle, .gray_circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(51, 51, 51, 0.4);
+}
+
+.white_circle {
+    background: rgba(255, 255, 255, 0.4);
+    transition: all 0.5s;
+}
+
+.white_circle:hover {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.gray_circle {
+    background: rgba(255, 255, 255, 0.4);
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+
+.gray_circle:hover {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.image_box {
+    height: 600px;
+    background: url(./images/IMAGE\ \(79\).png);
+}
+
+.offers_box {
+    width: 1360px;
+    padding-left: 40px;
+}
+
+.offers_box_1 {
+    width: 1360px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 139px;
+}
+
+.offers_box_1_logo {
+    color: rgb(41, 46, 54);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.offers_box_1_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 12px;
+}
+
+.offers_box_1_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.offers_images_box {
+    margin-top: 20px;
+    display: flex;
+}
+
+.burger_box, .pizza_box {
+    width: 665px;
+    height: 409px;
+}
+
+.burger_box {
+    background: url(./images/IMAGE\ \(80\).png);
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.pizza_box {
+    background: url(./images/IMAGE\ \(81\).png);
+    display: flex;
+    align-items: center;
+}
+
+.offer_content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.price_image {
+    width: 167px;
+    height: 104px;
+    margin-bottom: 43px;
+}
+
+.offer_price {
+    color: rgb(41, 46, 54);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 4.5px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.offer_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.offer_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.burger_image {
+    width: 307px;
+    height: 232px;
+    margin-right: 40px;
+}
+
+.pizza_image {
+    width: 325px;
+    height: 274px;
+    margin-right: 40px;
+}
+
+.menu_box_1 {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_box_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu_box_2_logo {
+    color: rgb(41, 46, 54);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.menu_box_2_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.menu_box_2_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.popular_menu_box {
+    width: 1360px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.popular_dish_image {
+    width: 318px;
+    height: 307px
+}
+
+.popular_dish_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular_dish_line {
+    width: 317.5px;
+    height: 1px;
+    background: rgb(220, 220, 220);
+    margin-top: 11.28px;
+}
+
+.popular_dish_name, .popular_dish_price {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.popular_dish_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-top: 13.72px;
+    width: 316px;
+}
+
+.dishes_button_1 {
+    width: 255px;
+    height: 73px;
+    box-sizing: border-box;
+    border: 2px solid rgb(225, 177, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    margin-top: 59.72px;
+}
+
+.dishes_button_1:hover {
+    background-color: rgb(225, 177, 104);
+}
+
+.dishes_button_1:hover .dishes_button_text {
+    color: white;
+}
+
+.offers_and_menu {
+    height: 1809px;
+}
+
+.services_box {
+    height: 515px;
+    background: rgb(41, 46, 54);
+    display: flex;
+    align-items: center;
+}
+
+.services_container {
+    display: flex;
+    padding-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    width: 448px;
+}
+
+.service_logo {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(225, 177, 104);
+    border-bottom: 1px solid rgb(225, 177, 104);
+    width: 172px;
+    padding-top: 5px;
+}
+
+.service_title {
+    color: rgb(255, 255, 255);
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.service_text {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.service_item {
+    width: 254px;
+    height: 235px;
+    box-sizing: border-box;
+    border: 20px solid rgb(50, 56, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_items {
+    width: 822px;
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.service_label {
+    color: rgb(255, 255, 255);
+    font-family: Cormorant Infant;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.blog_box {
+
+}
+
+.blog_container {
+    padding: 140.28px 40px 99.72px 40px;
+    width: 1360px;
+}
+
+.blog_header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog_content {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.blog_logo {
+    color: rgb(41, 46, 54);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+    border-top: 1px solid rgb(225, 177, 104);
+    border-bottom: 1px solid rgb(225, 177, 104);
+    padding-top: 5px;
+    width: 56px;
+}
+
+.blog_container_title {
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.blog_container_text {
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.blog_post {
+    width: 640px;
+}
+
+.post_header {
+    background: url(./images/IMAGE\ \(91\).png);
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view_more {
+    width: 227px;
+    height: 73px;
+    box-sizing: border-box;
+    border: 2px solid rgb(225, 177, 104);
+    background: rgb(225, 177, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.view_more:hover {
+    background-color: rgb(41, 46, 54);
+}
+
+.view_more:hover .view_more_text {
+    color: rgb(225, 177, 104);
+}
+
+.view_more_text {
+    color: rgb(41, 46, 54);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.44px;
+    text-align: center;
+}
+
+.post_body {
+    border: 1px solid rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 640px;
+}
+
+.post_category_and_date {
+    display: flex;
+    margin-top: 50.33px;
+    padding-left: 36px;
+    margin-bottom: 25.67px;
+}
+
+.post_category, .post_date {
+    color: rgb(41, 46, 54);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(225, 177, 104);
+    border-bottom: 1px solid rgb(225, 177, 104);
+}
+
+.post_date {
+    margin-left: 30px;
+}
+
+.post_title {
+    width: 502px;
+    color: rgb(41, 46, 54);
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    text-transform: capitalize;
+    padding-left: 36px;
+    margin-bottom: 24px;
+}
+
+.post_text {
+    width: 547px;
+    color: rgb(85, 85, 85);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-left: 36px;
+    padding-bottom: 38.33px;
+}
+
+.post_header_2 {
+    background: url(./images/IMAGE\ \(92\).png);
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation_form_box {
+    height: 977px;
+    background: url(./images/IMAGE\ \(93\).png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation_form {
+    width: 920px;
+    height: 697px;
+    background: rgba(41, 46, 54, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 640px;
+    height: 114px;
+}
+
+.reservation_logo {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(225, 177, 104);
+    border-bottom: 1px solid rgb(225, 177, 104);
+    width: 143px;
+    padding-top: 5px;
+}
+
+.reservation_heading {
+    color: rgb(255, 255, 255);
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.reservation_inputs {
+    display: flex;
+    width: 640px;
+    justify-content: space-between;
+}
+
+.name_input, .email_input {
+    width: 307px;
+    height: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(133, 133, 133);
+    display: flex;
+    align-items: center;
+}
+
+.input_name {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-left: 23px;
+}
+
+.reservation_details {
+    width: 640px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30.28px;
+}
+
+.persons_input, .timing_input, .date_input {
+    width: 198px;
+    height: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(133, 133, 133);
+    display: flex;
+    align-items: center;
+}
+
+.reservation_button {
+    width: 242px;
+    height: 68px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    transition: all 0.3s;
+}
+
+.reservation_button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.reservation_button:hover .reservation_button_text {
+    color: rgb(255, 255, 255);
+}
+
+.reservation_button_text {
+    color: rgb(0, 0, 0);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.footer_content {
+    width: 1360px;
+    padding: 100.28px 40px 0 40px;
+}
+
+.footer_box {
+    height: 655px;
+    background: rgb(41, 46, 54);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_box_1 {
+    width: 1360px;
+    height: 188px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_tag {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-top: 138.72px;
+}
+
+.footer_image {
+    width: 378px;
+    height: 188px;
+    padding-top: 28.72px;
+}
+
+.social_icons {
+    width: 179px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 79px;
+}
+
+.footer_box_2 {
+    display: flex;
+    width: 1360px;
+    height: 176px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contact_title {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 3px;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(225, 177, 104);
+    border-bottom: 1px solid rgb(225, 177, 104);
+    width: 94px;
+}
+
+.footer_contact_address {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-top: 34px;
+}
+
+.footer_contact_phone, .footer_contact_email {
+    color: rgb(225, 177, 104);
+    font-family: Josefin Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.footer_mailing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_mailing_text {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.footer_mailing_input {
+    width: 456px;
+    height: 68px;
+    box-sizing: border-box;
+    border: 1px solid rgb(133, 133, 133);
+    display: flex;
+    align-items: center;
+}
+
+.footer_mailing_input_text {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.footer_mailing_content {
+    display: flex;
+    margin-top: 25.28px;
+}
+
+.footer_mailing_subscribe {
+    width: 208px;
+    height: 68px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.footer_mailing_subscribe:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.footer_mailing_subscribe:hover .footer_mailing_subscribe_text {
+    color: white;
+}
+
+.footer_mailing_subscribe_text {
+    color: rgb(0, 0, 0);
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.footer_working_hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 332px;
+}
+
+.footer_hours_title {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 3px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+    border-top: 1px solid rgb(225, 177, 104);
+    border-bottom: 1px solid rgb(225, 177, 104);
+    width: 176px;
+    padding: 7px 0 4.28px 0;
+    margin-left: 156px;
+}
+
+.footer_hours {
+    display: flex; 
+    margin-left: 68px;
+}
+
+.footer_day {
+    color: rgb(225, 177, 104);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: right;
+}
+
+.footer_time {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: right;
+}
+
+.footer_info {
+    height: 81px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.footer_info_copyright {
+    margin-right: 10px;
+    margin-left: 18px;
+}
+
+.footer_info_copyright_text {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.footer_info_powered {
+
+}
+
+.footer_info_powered_text {
+    color: rgb(225, 177, 104);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.powered_by {
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.footer_info_main {
+    display: flex;
+    width: 1460px;
+}
+
+.footer_info_links {
+    display: flex;
+    width: 430px;
+    justify-content: space-between;
+    margin-left: 385px;
+    position: absolute;
+    top: 26px;
+    right: 53px;
+    bottom: 25px;
+    left: 673px;
+}
+
+.footer_link {
+    color: rgb(225, 177, 104);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.menu_box_1 {
+    align-items: center;
+}
+
+.footer_days {
+    margin-right: 5px;
+}
